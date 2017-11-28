@@ -1,0 +1,174 @@
+/* ~~~~~~~~~~~Navigation Section~~~~~~~~~~~~~ */
+
+.container {
+	max-width: 90rem;
+	margin: 0px;
+}
+
+.navigation {
+	position: absolute;
+	right: 65px;
+	margin: 1.5em 2em;
+}
+
+.navigation a {
+	color: #f5f5f5;
+	text-decoration: none;
+	font-family: "Varela Round";
+	margin: .7em;
+	margin-left: 0;
+	padding: 1em;
+}
+
+.navigation a:hover {
+	background-color: #E8E8E8;
+	color: #707070;
+}
+
+.menu-fixed {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.50);
+	margin: 0px 40px;
+	padding: 12px;
+}
+
+.menu-fixed a {
+	padding: .8em 1em 1em 1em;
+	margin: 0;
+}
+
+/* ~~~~~~~~~~~Main Section~~~~~~~~~~~~~ */
+
+.header-content {
+	height: 40em;
+	background-color: #d6968f;
+	background-image:;
+	background-size: cover;
+}
+
+.transparent {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.50);
+	height: 100%;
+	width: 100%;
+
+}
+
+.header-content span {
+	font-family: "Varela Round";
+	font-size: 1.3em;
+	line-height: 38px;
+	text-align: center;
+	color: #E3E3E3;
+}
+
+.big-title {
+	font-size: 3.5em !important;
+	margin-bottom: .5em;
+	font-weight: 600;
+	line-height: 52px !important;
+	color: #F5F5F5 !important;
+}
+
+/* ~~~~~~~~~~~AboutMe Section~~~~~~~~~~~~~ */
+
+.aboutme{
+    max-width: 60rem;
+    text-align: justify;
+	margin: 3em 10em !important;
+}
+
+.title{
+    font-weight: 600;
+    line-height: 48px !important;
+	font-family: "Varela Round";
+	text-align: right;
+}
+
+/* ~~~~~~~~~~~Mywork Section~~~~~~~~~~~~~ */
+
+.mywork-title{
+    font-weight: 600;
+    line-height: 48px !important;
+	font-family: "Varela Round";
+	text-align: left;
+}
+
+.mywork{
+    display: flex;
+
+}
+
+.work{
+    display: flex;
+    width: 25%;
+    height: 20em;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbb5b3;
+}
+
+.work a {
+    font-family: "Varela Round";
+    color: #383838;
+    text-decoration: none;
+}
+
+.work:hover {
+	background-color: #F0F0F0;
+}
+
+.work1{
+	/*background-image:url("./slight.png");*/
+	font-family: "Varela Round";
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* ~~~~~~~~~~~SocialMedia Section~~~~~~~~~~~~~ */
+
+.social{
+	background-color: #191919;
+	color: #D1D1D1;
+}
+
+.social i {
+	padding: 14px;
+	font-size: 22px;
+	margin: 0px 0px;
+  
+}
+
+.social a {
+	color:#D1D1D1;
+}
+
+.social a:hover, i:hover {
+	background-color: #E8E8E8;
+	color: #707070;
+}
+
+.icon-container {
+	text-align: center;
+}
+
+.icon-container a {
+	font-size: 1em;
+}
+
+.footer-mail {
+	margin-left: auto;
+    font-size: 13px;
+    padding-left: 15rem !important;
+    font-family: "Varela Round";
+    text-decoration: none;
+    padding: .5em;
+    color: #D1D1D1;
+}
+
+.send-mail {
+  font-size: 1.1em !important;
+}
